@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body style="width: 600px">
+
+    <input type="text" id="text_filter" placeholder="テキスト">
+    <input type="checkbox" id="text_regex">
+    <label for="text_regex">正規表現</label>
+    <br>
+
+    <input type="text" id="url_filter" placeholder="URL">
+    <input type="checkbox" id="url_regex">
+    <label for="url_regex">正規表現</label>
+    <br>
+
+    <div id="urls">
+    </div>
+
+    <button id="download_all">Download All</button>
+    <button id="download_cancel">Download Cancel</button>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popup.js"></script>
+</body>
+
+</html>
